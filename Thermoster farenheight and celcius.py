@@ -74,6 +74,6 @@ mqtt_client = MQTTClient(
     password=mqtt_password
     )
 mqtt_client.publish(mqtt_publish_topic1, str(temp))
-mqtt_client.publish(mqtt_publish_topic1, str(faren))
+mqtt_client.publish(mqtt_publish_topic2, str(faren))
 
 mqtt_client.connect()
