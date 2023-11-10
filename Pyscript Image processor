@@ -1,6 +1,3 @@
-patbyPLD4gmm6JCCQ.312409295e11c812491e1da8aff79d8cacf644a80270bd4a8b7808453cc8ae2d
-
-Airtable image shit:
 cv2_image = cv2.cvtColor(np.array(cam.raw_image), cv2.COLOR_RGB2BGR)
 b,g,r = cv2.split(cv2_image)
 grey = cv2.cvtColor(cv2_image, cv2.COLOR_BGRA2GRAY)
