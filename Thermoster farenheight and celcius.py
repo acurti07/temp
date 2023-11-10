@@ -9,11 +9,11 @@ adc = machine.ADC(machine.Pin(27))
 led_pins = [machine.Pin(pin, machine.Pin.OUT) for pin in [13, 14, 15, 16, 17, 18, 19]]  # Replace with appropriate GPIO pins
 
 led_temp_ranges = {
-    (0, 18): 0,    # 0 LEDs on for temperature less than 60°C
-    (18, 20): 1,   # 1 LED on for 60-65°C range
-    (20, 25): 2,   # 2 LEDs on for 65-70°C range
-    (25, 30): 3,   # 3 LEDs on for 70-75°C range
-    (30, 100): 7,  # 7 LEDs on for 75-100°C range
+    (0, 18): 0,    # 0 LEDs on for temperature less than 60°f
+    (18, 20): 1,   # 1 LED on for 60-65°f range
+    (20, 25): 2,   # 2 LEDs on for 65-70°f range
+    (25, 30): 3,   # 3 LEDs on for 70-75°f range
+    (30, 100): 7,  # 7 LEDs on for 75-100°f range
 }
 
 # Thermistor parameters
