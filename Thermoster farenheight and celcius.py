@@ -65,6 +65,7 @@ mqtt_host="io.adafruit.com"
 mqtt_username="Aidan_curtin"
 Mqtt_password="aio_aMYU03Uo63sxJWShTdEuZA0Fi0qN"
 mqtt_publish_topic1="Aidan_curtin/feeds/temp-feed"
+mqtt_publish_topic2="Aidan_curtin/feeds/temp-feed(f)"
 mqtt_client_id="Aidan"
 
 mqtt_client = MQTTClient(
