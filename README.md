@@ -1,4 +1,4 @@
-The Pyscript code is a code that uses the CSV image processing library in order to upload the most abundant color in a recorded image to an airtable. 
+The Pyscript code is a code that uses the CV2 image processing library in order to upload the most abundant color in a recorded image to an airtable. 
 This data comes in tnhe fourm of either red, blue, or green.
 This data is then processed in the thermistor code. Wherein a get request (which I coukldnt figure out) gets information from airtable
 in order to adjust the uploaded thermistor readings acordingly. I however opted to make the thermistor operate differently, and made it record and 
